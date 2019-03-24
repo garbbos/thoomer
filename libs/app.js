@@ -6,6 +6,8 @@ window.onload = function () {
     const fondo = document.querySelector('.fondo');
     const nuevo = document.querySelector('#bnuevo');
 
+    fondo.style.display = "block";
+
     nuevo.addEventListener('click', () => {
        fondo.style.visibility = "visible";
         msg("fondo open");  
