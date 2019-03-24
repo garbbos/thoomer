@@ -1,6 +1,6 @@
 # thoomic
 
-Webapp create for store client data, share it about a json file and the generate invoices to pdf format.
+Project data
 
-Autor: Antonio García.
+Antonio García.
 garbbos@gmail.com

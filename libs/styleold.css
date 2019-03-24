@@ -1,11 +1,12 @@
 body{
-    background: #bcbdac;
+    background: rgb(212, 208, 208);
     color: #222;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 a{
     text-decoration: none;
 }
@@ -25,12 +26,11 @@ a.menu:hover{
 a.visited{
     color: rgb(165, 108, 1);
 }
-.base{
 
+.bnuevo{
+    flex: 2 1 60px;
 }
-.barra{
-    margin: .8em;
-}
+
 .fondo{
     background-color: rgb(2, 2, 2);
     background-color: rgba(2, 2, 2, .4);
@@ -55,6 +55,52 @@ footer{
 
 footer>p{
     padding-right: .8em;
+}
+.fsearch{
+    flex: 4 1 auto;
+    text-align: right;
+}
+h3{
+    padding: .4em;
+    margin: .2em;
+}
+
+img.logo{
+    padding: .2em 0 0 0;
+}
+
+input{
+    border: 1px solid rgb(95, 64, 6);
+    border-radius: .3em;
+    display:block;
+    font-size: 1.2em;
+    padding: .4em 1.4em;
+    margin: .4em;
+}
+.left{
+    background: #ffdf4a;
+    width: 35%;
+}
+.menu{
+        flex: 0 1 60px;
+}
+nav{
+    margin: .6em;
+    display: flex;
+}
+
+.nuevo{
+    background-color:  rgb(212, 208, 208);
+    border: 1px solid rgb(95, 64, 6);
+    border-radius: .3em;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
+
+section{
+    height: 100%;
 }
 
 svg{

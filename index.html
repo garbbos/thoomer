@@ -9,33 +9,62 @@
     <script type="text/javascript" src="libs/app.js" defer></script>
     <script type="text/javascript" src="libs/libro.js" defer></script>
 </head>
-<body>
-    <nav>
-        <img class="logo" src="img/thoomer.svg" alt="Logo Thoomer.com"/>
-        <div class="barra">
-            <a href="#" class="menu" id="new">Repository</a> 
-            <a href="#" class="menu" id="bills">Bills</a>
-            <a href="#" class="menu" id="share">Share</a>
-        </div>
-    </nav>
 
+<body>
     <section class="base">
-        <article>
-            <form action="" class="repo" id="repo">
-                <input type="text" id="nfile" placeholder="Search">
-                <input type="button" id="search" value="&#9889">
+        <nav class="barra">
+                <svg class="menu" id="repository" viewBox="0 0 50 50" height="40" width="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <title>Repository</title>
+                    <g stroke="#474747" stroke-width="2" fill="#ffdf4a">
+                        <rect x="2" y="2" width="24" height="28"/>
+                        <rect x="6" y="6" width="24" height="28"/>
+                        <rect x="10" y="10" width="24" height="28"/>
+                    </g>
+                </svg>
+                <svg class="menu" id="share" viewBox="0 0 50 50" height="40" width="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <title>Share it.</title>
+                    <g stroke="#474747" stroke-width="2" fill="#ffdf4a">
+                        <circle cx="6" cy="20" r="4"/>
+                        <circle cx="22" cy="34" r="4"/>
+                        <circle cx="30" cy="6" r="4"/>
+                        <line x1="10" y1="18" x2="27" y2="7"/>
+                        <line x1="8" y1="22" x2="18" y2="30"/>
+                    </g>
+                </svg>
+                
+                <svg class="bnuevo" id="bnuevo" viewBox="0 0 50 50" height="40" width="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <title>Share it.</title>
+                    <g stroke="#474747" stroke-width="2" fill="#ffdf4a">
+                        <rect x="2" y="2" width="36" height="36"/>
+                        <line x1="20" y1="12" x2="20" y2="28" stroke-width="4"/>
+                        <line x1="12" y1="20" x2="28" y2="20" stroke-width="4"/>
+                    </g>
+                </svg>
+                <h1>The edge of the Ship.</h1>
+                <form action="" class="fsearch">
+                    <input type="search" id="isearch" placeholder="Search">
+                </form>
+        </nav>
+        <article class="info">
+            <h2 id="titulo">
+                
+            </h2>
+        </article>    
+    </section>
+
+    <section class="fondo">
+        <article class="nuevo" id="nuevo">
+            <h3>Nueva Entrada.</h3>
+            <form>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="button">
             </form>
         </article>
-        <article class="info">
-            <p>
-                Files:
-            </p>
-        </article>
-        <article>
-          
-        </article>
-        
     </section>
+
     <footer>
         <p>&copy;&nbsp; Garbbos</p>
     </footer>
