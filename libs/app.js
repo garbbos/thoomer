@@ -5,6 +5,7 @@ window.onload = function () {
 
     const fondo = document.querySelector('.fondo');
     const nuevo = document.querySelector('#bnuevo');
+    const isearch = document.querySelector('#isearch');
 
     fondo.style.display = "block";
 
@@ -23,5 +24,9 @@ window.onload = function () {
             fondo.style.visibility = "hidden";
             msg("Esc presionado");  
         }
+    });
+
+    window.addEventListener('click', (e) => {
+        isearch.value = ""
     });
 }

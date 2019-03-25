@@ -31,7 +31,22 @@ button{
     height: 30px;
     width: 38px;
 }
-
+.circulo{
+    background: rgba(246, 153, 39, 1);
+    border-style:solid;
+    border-width:2px;  
+    border-color:rgba(22, 22, 22, 0.6);
+    border-radius: 50%;
+    color: #222;
+    display: inline-block;
+    height: 120px;
+    margin: 2em;
+    width: 120px;
+}
+.circulos{
+    margin: 2em;
+    text-align: center;
+}
 .fondo{
     background-color: rgb(2, 2, 2);
     background-color: rgba(2, 2, 2, .4);
@@ -71,17 +86,34 @@ h1{
 }
 nav{
     background: rgba(246, 153, 39, 1);
-    box-shadow: 2px 2px 2px #222;
     color: #222;
     display: flex;
     padding: .6em 0 0 1em;  
 }
+
 .ssearch{
     margin: 1em;
 }
-input{
+.sombra{
     box-shadow: 2px 2px 2px #222;
-    border-color: 1px solid #222;
+}
+input{
+    font-size: 1.2em;
+    border-color:rgba(22, 22, 22, 0);
+    border-bottom-style:solid;
+    border-bottom-width:2px;  
+    border-bottom-color:rgba(22, 22, 22, 0.6);
+    padding: .4em;
+}
+input:hover{
+    border-style:solid;
+    border-width:2px;  
+    border-color:rgba(22, 22, 22, 0.6);
+}
+input:focus{
+    border-style:solid;
+    border-width:2px;  
+    border-color:rgba(22, 22, 22, 0.6);
 }
 svg{
     cursor: pointer;
